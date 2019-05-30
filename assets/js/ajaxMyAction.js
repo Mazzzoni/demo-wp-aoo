@@ -1,6 +1,4 @@
-$ = jQuery;
-
-$(document).ready(function () {
+jQuery(document).ready(function () {
 	launchRequest();
 
 	function launchRequest()
@@ -8,7 +6,7 @@ $(document).ready(function () {
 		// console.log(WP_ADMIN_AJAX);
 		// console.log(nonceMyAction);
 
-		$.ajax({
+		jQuery.ajax({
 			url: WP_ADMIN_AJAX, // This is globally available, it resolves to the admin ajax url
 			method: 'POST',
 			data: {

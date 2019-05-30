@@ -10,7 +10,7 @@ class MyAction extends AjaxHandler
 		'jquery',
 	];
 
-	static public function getAssetSrc(): string
+	public function getAssetSrc(): string
 	{
 		return get_stylesheet_directory_uri() . '/assets/js/ajaxMyAction.js';
 	}
