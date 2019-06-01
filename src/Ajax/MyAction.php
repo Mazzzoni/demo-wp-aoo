@@ -28,7 +28,7 @@ class MyAction extends AjaxHandler
 	 */
 	public function getAssetSrc(): string
 	{
-		return get_stylesheet_directory_uri() . '/assets/js/ajaxMyAction.js';
+		return get_stylesheet_directory_uri() . '/assets/js/MyAction.js';
 	}
 
 	/**

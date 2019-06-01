@@ -23,7 +23,7 @@ class InfileJavascript extends AjaxHandler
 	public function treatment(): void
 	{
 		wp_send_json([
-			'message' => "Hello infile javascript",
+			'message' => "Hello infile javascript !",
 		], 200);
 	}
 
@@ -41,7 +41,7 @@ class InfileJavascript extends AjaxHandler
 					method: 'POST',
 					data: {
 						action: 'InfileJavascript',
-						nonce: nonceInfileJavascript,
+						nonce: InfileJavascriptNonce,
 					},
 					success: function (response) {
 						console.log(response);
