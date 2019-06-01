@@ -1,4 +1,5 @@
 <?php
+# functions.php
 
 // Require the autoloader
 require(__DIR__ . '/vendor/autoload.php');

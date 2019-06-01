@@ -1,4 +1,6 @@
 <?php
+# src/Ajax/InfileJavascript.php
+
 namespace App\Ajax;
 
 use Frast\AjaxHandler;
@@ -20,9 +22,6 @@ class InfileJavascript extends AjaxHandler
 
 	public function treatment(): void
 	{
-		// Do your stuff here, don't forget to sanitize user inputs in real case scenario
-
-		// JSON Response sent back
 		wp_send_json([
 			'message' => "Hello infile javascript",
 		], 200);
